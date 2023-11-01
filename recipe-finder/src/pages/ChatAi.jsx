@@ -3,7 +3,7 @@ import OpenAI from "openai";
 import { motion } from 'framer-motion'; // Import motion from framer-motion
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey:import.meta.env.VITE_SOME_KEY,
   dangerouslyAllowBrowser: true,
 });
 
